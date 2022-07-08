@@ -12,6 +12,7 @@
     background-position: center;
     height: 95vh;
     width: 100vw;
+    position: relative;
 }
 
 /* navbar stuff */
@@ -44,3 +45,22 @@
 }
 
 /* navbar stuff ends */
+
+.home-text1 {
+    font-size: 36px;
+}
+
+.home-box {
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, .5);
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* -ms-transform: translate(-50%, -50%); */
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
