@@ -48,6 +48,7 @@
 
 .home-text1 {
     font-size: 36px;
+    text-align: center;
 }
 
 .home-box {
@@ -62,5 +63,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    max-width: 50vw;
+}
 
+div > p {
+    text-align: center;
 }
