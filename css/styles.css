@@ -170,7 +170,7 @@ div > p {
 
 @media only screen and (max-height: 668px) {
     .nav-link {
-        font-size: .8rem;
+        font-size: 1rem;
     }
 
     .navbar-brand {
