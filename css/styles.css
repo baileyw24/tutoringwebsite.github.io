@@ -161,9 +161,9 @@ div > p {
         font-size: 1rem;
     }
 
-    .home-box {
-        max-width: 70vw;
-    }
+    /* .home-box {
+        max-width: 800vw;
+    } */
 
 }
 
@@ -179,14 +179,14 @@ div > p {
 
 @media only screen and (max-width: 700px) {
     .home-text1 {
-        font-size: 1.3rem;
+        font-size: 1.4rem;
     }
 
     .home-text2 {
-        font-size: .8rem;
+        font-size: .9rem;
     }
 
     .home-box {
-        max-width: 70vw;
+        max-width: 85vw;
     }
 }
