@@ -27,8 +27,9 @@
 }
 
 .navbar-brand {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     transition: all 350ms ease;
+    margin-left: 5px;
 }
 
 .container {
@@ -38,6 +39,8 @@
 
 .nav-item {
     margin: 0 auto;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .nav-link {
@@ -56,13 +59,15 @@
 }
 
 .nav-item a:hover, .nav-item a:focus {
-    box-shadow: 1px 1px #62C6F2, 2px 2px #62C6F2, 3px 3px #62C6F2;
-    transform: translateY(-3px);
+    /* box-shadow: 1px 1px #62C6F2, 2px 2px #62C6F2, 3px 3px #62C6F2;
+    transform: translateY(-3px);  */
+    transform: scale(1.1);
 }
 
 .navbar-brand:hover, .navbar-brand:focus {
-    box-shadow: 1px 1px #62C6F2, 2px 2px #62C6F2, 3px 3px #62C6F2;
-    transform: translateY(-3px);
+    /* box-shadow: 1px 1px #62C6F2, 2px 2px #62C6F2, 3px 3px #62C6F2;
+    transform: translateY(-3px); */
+    transform: scale(1.1);
 }
 
 /* navbar stuff ends */
@@ -134,11 +139,15 @@ div > p {
     }
 
     .navbar-brand {
-        font-size: 1.8rem;
+        font-size: 1.4rem;
     }
 
     .nav-link {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
+    }
+
+    .nav-item {
+        margin: 0 auto;
     }
 
 }
@@ -159,9 +168,9 @@ div > p {
 }
 
 @media only screen and (max-height: 820px) {
-    .navbar-brand {
-        font-size: 1rem;
-    }
+    /* .navbar-brand {
+        font-size: 6rem;
+    } */
 
     nav-link {
         font-size: .1rem;
