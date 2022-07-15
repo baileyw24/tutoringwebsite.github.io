@@ -148,6 +148,7 @@ div > p {
 
     .nav-item {
         margin: 0 auto;
+        margin-bottom: -5px;
     }
 
 }
