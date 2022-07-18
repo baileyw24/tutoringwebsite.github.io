@@ -81,6 +81,10 @@
     text-align: center;
 }
 
+.home-text2 {
+    text-align: center;
+}
+
 .home-box {
     color: #ffffff;
     background-color: rgba(0, 0, 0, .5);
@@ -93,10 +97,6 @@
     justify-content: center;
     align-items: center;
     max-width: 50vw;
-}
-
-div > p {
-    text-align: center;
 }
 
 .book-now-buttons {
@@ -131,33 +131,36 @@ div > p {
 }
 
 .box1 {
-    background-color: #3592D0;
+    background-color: #13294B;
     width: 100vw;
-    color: #3592D0;
+    color: #13294B;
 }
 
 .box2 {
-    background-color: #3592D0;
+    background-color: #13294B;
     width: 100vw;
-    color: #3592D0;
+    color: #13294B;
 }
 
 .how-to-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #62C6F2;
+    justify-content: center;
+    /* background-color: #62C6F2; */
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #62C6F2 0%, #ffffff 100%);
 }
 
 h2 {
     font-size: 2.25rem;
-    color: #00000F;
 }
 
 .steps-container {
     display: flex;
     align-items: center;
-    flex-direction: row;
+    justify-content: center;
+    flex-direction: column;
     gap: 40px;
 }
 
@@ -170,6 +173,38 @@ h2 {
 .step-image1 {
     height: 75px;
     width: 80px;
+}
+
+h3 {
+    font-size: 1.75rem;
+}
+
+.why-tutor-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #605A56;
+    color: #ffffff;
+}
+
+.why-container {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+} 
+
+.container3 {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    max-width: 543px;
+    max-height: 84px;
+    text-align: center;
 }
 
 
