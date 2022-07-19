@@ -206,9 +206,76 @@ h3 {
     max-height: 84px;
     text-align: center;
 }
-
-
 /* home page content ends */
+
+/* footer content begins here */
+.footer-container {
+    display: flex;
+    flex-direction: column; 
+    background-color: #D8D4CF;
+    align-items: center;
+    background-color: #b8c6db;
+    background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
+}
+
+.footer-note {
+    font-size: 1.25rem;
+}
+
+.footer-container2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-container1 {
+    display: flex;
+    flex-direction: row;
+    gap: 3vw;
+}
+
+h4 {
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+
+.link {
+    text-decoration: none;
+    font-size: 1.375rem;
+    color: #000000;
+    transition: all 350ms ease;
+}
+
+.link-transform {
+    transition: all 350ms ease;
+}
+
+.link:hover, .link:focus {
+    color: #000000;
+}
+
+.link-transform:hover, .link-transform:focus {
+    transform: scale(1.1);
+}
+
+.footer-links {
+    list-style: none;
+}
+
+.footer-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icon {
+    max-width: 68px;
+    max-height: 64px;
+    transition: all 350ms ease;
+}
+
+.social-icon:hover, .social-icon:focus {
+    transform: scale(1.05)
+}
+/* footer content ends here */
 
 @media only screen and (max-width: 991.98px) {
     .home-text1 {
