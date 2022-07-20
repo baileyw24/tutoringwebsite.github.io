@@ -206,6 +206,62 @@ h3 {
     max-height: 84px;
     text-align: center;
 }
+
+.leader-container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    max-width: 20vw;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 10px;
+    border-color: #13294B;
+    border-width: .25rem;
+    margin-bottom: 20px;
+    transition: all 350ms ease;
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+}
+
+.stretched-link::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    pointer-events: auto;
+    content: "";
+    background-color: rgba(0,0,0,0);
+}
+
+.card:hover, .card:focus {
+    border-color: #62C6F2;
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    object-fit: scale-down;
+    max-height: 50vw;
+    border-radius: 5px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    color: black;
+    text-align: center;
+}
+
+.card-title-2 {
+    font-size: 1.1rem;
+    color: black;
+    font-style: italic;
+}
+
+.card-text {
+    font-size: 1rem;
+}
 /* home page content ends */
 
 /* footer content begins here */
