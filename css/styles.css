@@ -202,8 +202,8 @@ h3 {
     display: flex;
     align-items: flex-start;
     flex-direction: row;
-    max-width: 543px;
-    max-height: 84px;
+    /* max-width: 543px;
+    max-height: 84px; */
     text-align: center;
 }
 
@@ -213,7 +213,7 @@ h3 {
 }
 
 .card {
-    max-width: 20vw;
+    max-width: 25vw;
     text-align: center;
     padding: 1rem;
     border-radius: 10px;
@@ -275,12 +275,13 @@ h3 {
 }
 
 .footer-note {
-    font-size: 1.25rem;
+    font-size: .8rem;
 }
 
 .footer-container2 {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .footer-container1 {
@@ -290,13 +291,13 @@ h3 {
 }
 
 h4 {
-    font-size: 1.75rem;
+    font-size: 1.2rem;
     font-weight: bold;
 }
 
 .link {
     text-decoration: none;
-    font-size: 1.375rem;
+    font-size: 1rem;
     color: #000000;
     transition: all 350ms ease;
 }
@@ -338,10 +339,6 @@ h4 {
         font-size: 1.5rem;
     }
 
-    div > p {
-        font-size: .875rem;
-    }
-
     .button1 {
         height: 30px;
         font-size: 1rem;
@@ -364,6 +361,56 @@ h4 {
         margin-bottom: -5px;
     }
 
+    h2 {
+        font-size: 1.7rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    .step-image1 {
+        width: 70px;
+        height: 65px;
+    }
+
+    .card {
+        max-width: 30vw;
+    }
+
+    .card-title {
+        font-size: 1.1rem;
+    }
+
+    .card-title-2 {
+        font-size: .8rem;
+    }
+
+    .card-text {
+        font-size: .9rem;
+    }
+
+    .container3 {
+        font-size: .8rem;
+    }
+
+    h4 {
+        font-size: 1.2rem;
+    }
+
+    .link {
+        font-size: .8rem;
+    }
+
+    .footer-note {
+        font-size: .8rem;
+    }
+
+    .social-icon {
+        max-width: 38px;
+        max-height: 34px;
+    }
+
 }
 
 @media only screen and (max-width: 576px) {
@@ -373,6 +420,41 @@ h4 {
 
     .nav-link {
         font-size: 1rem;
+    }
+
+    .container3 {
+        font-size: .75rem;
+    }
+
+    h4 {
+        font-size: .8rem;
+    }
+
+    .link {
+        font-size: .6rem;
+    }
+
+    /* .footer-container1 {
+        gap: 5vw;
+    } */
+
+    .why-container {
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .container3 {
+        max-width: 50vw;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        max-width: 50vw;
+    }
+
+    .footer-note {
+        font-size: .5rem;
     }
 
 }
