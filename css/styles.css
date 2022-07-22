@@ -149,7 +149,7 @@
     background-color: black;
     width: 100vw;
     color: black;
-    height: 10px;
+    height: 5px;
 }
 
 .how-to-container {
@@ -307,13 +307,13 @@ h3 {
 }
 
 h4 {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: bold;
 }
 
 .link {
     text-decoration: none;
-    font-size: 1rem;
+    font-size: .9rem;
     color: #000000;
     transition: all 350ms ease;
 }
@@ -424,7 +424,7 @@ h4 {
     }
 
     h4 {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     .link {
@@ -556,7 +556,7 @@ h4 {
     }
 
     h3 {
-        font-size: 1.4rem!important;
+        font-size: 1.2rem!important;
     }
 }
 
