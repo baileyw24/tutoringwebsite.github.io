@@ -18,6 +18,56 @@
     position: relative;
 }
 
+.contact-img {
+    background-image: url("../img/burst-kUqqaRjJuw0-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 95vh;
+    width: 100vw;
+    position: relative;
+}
+
+.about-img {
+    background-image: url("../img/mimi-thian-vdXMSiX-n6M-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 95vh;
+    width: 100vw;
+    position: relative;
+}
+
+.affordability-img {
+    background-image: url("../img/siora-photography-hgFY1mZY-Y0-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 95vh;
+    width: 100vw;
+    position: relative;
+}
+
+.college-img {
+    background-image: url("../img/windows-VMPhyAoVqqk-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 95vh;
+    width: 100vw;
+    position: relative;
+}
+
+.hs-img {
+    background-image: url("../img/john-schnobrich-2FPjlAyMQTA-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 95vh;
+    width: 100vw;
+    position: relative;
+}
+
 .bg-custom {
     background-color: #E9AE86;
 }
@@ -86,6 +136,11 @@
 
 .home-text2 {
     text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+    font-style: italic;
 }
 
 .home-box {
