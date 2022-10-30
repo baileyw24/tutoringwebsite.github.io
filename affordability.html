@@ -58,7 +58,17 @@
               Courses range from high school through college for personalized mentorship. Contact us today
               to get started.
             </p>
-            <p class="home-text2 bold">For all business inquiries, please send an email to: baileyw2201@gmail.com</p>
+            <a class="contact-link home-text2 bold" href="" target="_blank" data-part1="BaileyW2201" data-part2="gmail" data-part3="com">Business Inquiries and General Questions</a>
+            <script>
+              const links = document.querySelectorAll("[data-part1][data-part2][data-part3]");
+              for (const link of links) {
+                const attrs = link.dataset;
+                link.setAttribute(
+                  "href",
+                  `mailto:${attrs.part1}@${attrs.part2}.${attrs.part3}?subject=${encodeURIComponent(link.textContent)}`
+                );
+              }
+            </script>
           </div>
         </div>
       </div>
