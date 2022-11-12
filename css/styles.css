@@ -1067,11 +1067,11 @@ h4 {
     }
 
     .button3 {
-        max-width: 43vw;
+        width: 43vw;
     }
 
-    button4 {
-        max-width: 43vw;
+    .button4 {
+        width: 43vw;
     }
 }
 
