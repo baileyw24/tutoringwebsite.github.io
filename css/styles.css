@@ -551,7 +551,7 @@ h3 {
 }
 
 .button4 {
-    width: 200px;
+    max-width: 30vw;
     height: 40px;
     transition: all 350ms ease;
     font-size: 1.125rem;
@@ -1067,11 +1067,11 @@ h4 {
     }
 
     .button3 {
-        width: 43vw;
+        width: 30vw;
     }
 
     .button4 {
-        width: 43vw;
+        width: 30vw;
     }
 }
 
