@@ -111,6 +111,11 @@
     margin-left: 5px;
 }
 
+.logo2 {
+    height: 80px;
+    width: 80px;
+}
+
 .dropdown-item {
     transition: all 350ms ease;
 }
@@ -157,6 +162,15 @@
     max-width: 50vw;
 }
 
+.who-we-are-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 70vw;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
 .book-now-buttons {
     position: absolute;
     top: 75%;
@@ -176,7 +190,30 @@
     box-shadow: 0px 1px #000000;
 }
 
+.button2 {
+    width: 140px;
+    height: 40px;
+    margin-left: 5vw;
+    transition: all 350ms ease;
+    font-size: 1.125rem;
+    box-shadow: 0px 1px #000000;
+    border-color: #000000;
+    background-color:#13294B;
+    color: white;
+    margin-top: -10px;
+}
+
+.margin {
+    margin-bottom: 30px;
+}
+
 .button1:hover, .button1:focus {
+    transform: scale(1.1);
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    color: black;
+}
+
+.button2:hover, .button2:focus {
     transform: scale(1.1);
     background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
     color: black;
@@ -203,11 +240,13 @@
 .content-container {
     display: flex;
     flex-direction: column;
-    background-color: #8D9DE2;
-    background-image: linear-gradient(43deg, #8D9DE2 0%, #D373CD 46%, #FFCC70 100%);
+    background-color: #f3f6fa;
+    /* background-color: #8D9DE2;
+    background-image: linear-gradient(43deg, #8D9DE2 0%, #D373CD 46%, #FFCC70 100%); */
     color: #000000;
     /* background-color: #8BC6EC;
     background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%); */
+    max-width: 100vw;
 }
 
 .box1 {
@@ -232,6 +271,50 @@
     /* background-color: #62C6F2; */
     /* background-color: #0093E9;
     background-image: linear-gradient(160deg, #62C6F2 0%, #ffffff 100%); */
+}
+
+.how-header {
+    margin-left: 5vw;
+    padding-top: 40px;
+}
+
+.how-text {
+    margin-left: 5vw;
+    margin-top: 2vw;
+    margin-bottom: -5px;
+}
+
+.how-list {
+    margin-left: 5vw;
+}
+
+.how-item {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.how-format {
+    display: flex;
+    flex-direction: row;
+}
+
+.how-format2 {
+    display: flex;
+    max-width: 60%;
+    flex-direction: column;
+}
+
+.how-img {
+    max-width: 40vw;
+    max-height: 50vh;
+    margin-left: 10vw;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+ol {
+    padding: 16px;
 }
 
 h2 {
@@ -268,6 +351,24 @@ h3 {
     align-items: center;
     /* background-color: #605A56; */
     color: black;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.lead-container {
+    display: flex;
+    flex-direction: row;
+    background-color: #0E1116;
+    /* margin-top: 30px; */
+    /* margin-bottom: 30px; */
+    /* margin-left: 60px;
+    margin-right: 60px; */
+}
+
+.white-background {
+    /* background-color: white; */
+    margin-left: 35px;
+    margin-right: 35px;
 }
 
 .why-container {
@@ -276,6 +377,19 @@ h3 {
     gap: 100px;
     margin-right: 10px;
     margin-left: 10px;
+}
+
+.why-center {
+    text-align: center;
+}
+
+.green-container {
+    background-color: #83d3c9;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /* border-radius: 10px; */
 }
 
 .container2 {
@@ -295,6 +409,31 @@ h3 {
 .leader-container {
     display: flex;
     justify-content: center;
+}
+
+.leader-container2 {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-left: 40px;
+    margin-top: 20px;
+    max-width: 65vw;
+}
+
+.name-title {
+    font-size: 1.5rem;
+}
+
+.name-title2 {
+    font-size: 1.1rem;
+    font-style: italic;
+}
+
+.leader-img {
+    max-width: 23vw;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 10px;
 }
 
 .card {
@@ -347,6 +486,93 @@ h3 {
 .card-text {
     font-size: 1rem;
 }
+
+/* this a test for the "why tutor w/ us" section */
+
+.why-container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.why-container3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 45vw;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+
+.bottom-image {
+    background-image: url("../img/priscilla-du-preez-XkKCui44iM0-unsplash.jpg");
+    width: 100vw;
+    height: 25vh;
+    background-position: center;
+}
+
+.bottom-box {
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, .5);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100vw;
+    height: inherit;
+    flex-direction: column;
+}
+
+.bottom-box2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
+.button3 {
+    width: 200px;
+    height: 40px;
+    transition: all 350ms ease;
+    font-size: 1.125rem;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    background-color: transparent;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.button3:hover, .button3:focus {
+    transform: scale(1.1);
+}
+
+.button4 {
+    width: 200px;
+    height: 40px;
+    transition: all 350ms ease;
+    font-size: 1.125rem;
+    background-color: #83d3c9;
+    color: black;
+    margin-bottom: 10px;
+    border: #83d3c9;
+}
+
+.button4:hover, .button4:focus {
+    transform: scale(1.1);
+}
+
+.how-img2 {
+    display: none;
+}
+
+.italic {
+    font-style: italic;
+}
+
 /* home page content ends */
 
 /* footer content begins here */
@@ -433,10 +659,56 @@ h4 {
     width: 50vw;
 }
 
+.hr-size2 {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    /* margin-left: 10vw; */
+    width: 30vw;
+}
+
+.hr-size3 {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    /* margin-right: 10vw; */
+    width: 30vw;
+}
+
+.hr-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 10vh;
+}
+
+.hr-container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 10vw;
+}
+
+.hr-container3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-right: 10vw;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* gap: 10vw; */
+}
+
 /* footer content ends here */
 
 @media only screen and (max-width: 991.98px) {
     .home-text1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
         font-size: 1.5rem;
     }
 
@@ -445,8 +717,17 @@ h4 {
         font-size: 1rem;
     }
 
+    .button2 {
+        height: 30px;
+        font-size: 1rem;
+    }
+
     .logo {
         display: none;
+    }
+
+    .logo2 {
+        max-width: 20vw;
     }
 
     .contact-link {
@@ -477,6 +758,11 @@ h4 {
     .step-image1 {
         width: 70px;
         height: 65px;
+    }
+
+    .logo2 {
+        width: 70px;
+        height: 70px;
     }
 
     .card {
@@ -543,6 +829,38 @@ h4 {
         gap: 5vw;
     } */
 
+    .button3 {
+        width: 40vw;
+        font-size: .8rem;
+    }
+
+    .button4 {
+        width: 40vw;
+        font-size: .8rem;
+    }
+
+    .bottom-text {
+        max-width: 80vw;
+    }
+
+    .leader-img {
+        max-width: 50vw;
+        max-height: 50vh;
+        margin-left: 0px;
+    }
+
+    .lead-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .leader-container2 {
+        margin-left: 0px;
+        padding-bottom: 20px;
+        /* max-width: 70vw; */
+    }
+
     .why-container {
         flex-direction: column;
         gap: 0px;
@@ -582,6 +900,46 @@ h4 {
         font-size: .5rem;
     }
 
+    .how-img {
+        display: none;
+    }
+
+    .how-img2 {
+        width: 80px;
+        height: 100px;
+        display: flex;
+    }
+
+    .how-format2 {
+        max-width: 90%;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .how-text {
+        margin-left: 0px;
+    }
+
+    .how-list {
+        margin-left: 0px;
+    }
+
+    .button2 {
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+
+    .green-container {
+        max-width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .how-format {
+        justify-content: center;
+    }
+
 }
 
 @media only screen and (max-height: 668px) {
@@ -599,8 +957,16 @@ h4 {
         font-size: 1.4rem;
     }
 
+    h2 {
+        font-size: 1.4rem;
+    }
+
     .home-text2 {
         font-size: .9rem;
+    }
+
+    .who-we-are-container {
+        max-width: 85vw;
     }
 
     .contact-link {
@@ -616,9 +982,30 @@ h4 {
         gap: 20px;
     }
 
+    .white-background {
+        margin-left: 0px;
+        margin-right: 0px;
+        justify-content: center;
+    }
+
+    .why-container2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
     .why-container {
         flex-direction: column;
         gap: 0px;
+    }
+
+    .hr-size4 {
+        width: 50vw;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .why-container3 {
+        width: 70vw;
     }
 
     .hr2 {
