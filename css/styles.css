@@ -276,6 +276,7 @@
 .how-header {
     margin-left: 5vw;
     padding-top: 40px;
+    display: flex;
 }
 
 .how-text {
@@ -414,6 +415,7 @@ h3 {
 .leader-container2 {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     color: white;
     margin-left: 40px;
     margin-top: 20px;
@@ -551,7 +553,7 @@ h3 {
 }
 
 .button4 {
-    max-width: 200px;
+    width: 200px;
     height: 40px;
     transition: all 350ms ease;
     font-size: 1.125rem;
@@ -939,6 +941,11 @@ h4 {
         margin-left: 0px;
     }
 
+    .how-header {
+        justify-content: center;
+        margin: 0 auto;
+    }
+
     .button2 {
         margin-left: 0px;
         margin-bottom: 20px;
@@ -1059,7 +1066,7 @@ h4 {
     }
 
     .how-img {
-        height: 30vh;
+        height: 50vh;
     }
 
     .how-format {
@@ -1094,11 +1101,28 @@ h4 {
 
     .how-format {
         flex-direction: column;
+        text-align: center;
+    }
+
+    .how-header {
+        justify-content: center;
     }
 
     .how-format2 {
         max-width: 70%;
         align-items: center;
+    }
+
+    .how-text {
+        margin-left: 0px;
+    }
+
+    .how-list {
+        margin-left: 0
+    }
+
+    .button2 {
+        margin-left: 0px;
     }
 
 
