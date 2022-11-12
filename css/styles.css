@@ -1065,6 +1065,14 @@ h4 {
     .how-format {
         align-items: center;
     }
+
+    .button3 {
+        max-width: 43vw;
+    }
+
+    button4 {
+        max-width: 43vw;
+    }
 }
 
 @media only screen and (max-width: 670px) {
