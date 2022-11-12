@@ -858,11 +858,11 @@ h4 {
         max-width: 80vw;
     }
 
-    /* .leader-img {
+    .leader-img {
         max-width: 50vw;
         max-height: 50vh;
         margin-left: 0px;
-    } */
+    }
 
     .lead-container {
         flex-direction: column;
@@ -1074,7 +1074,7 @@ h4 {
     }
 
     .how-img2 {
-        width: 20vw;
+        width: 30vw;
         height: 20vh;
         display: flex;
         margin: 0 auto;
