@@ -1066,7 +1066,8 @@ h4 {
     }
 
     .how-img {
-        height: 50vh;
+        height: 50%;
+        width: 50vw;
     }
 
     .how-format {
