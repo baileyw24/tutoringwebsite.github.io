@@ -1070,6 +1070,12 @@ h4 {
         width: 30vw;
     }
 
+    /* .button4 {
+        width: 30vw;
+    } */
+}
+
+@media only screen and (min-width: 576px) {
     .button4 {
         width: 30vw;
     }
