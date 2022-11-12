@@ -551,7 +551,7 @@ h3 {
 }
 
 .button4 {
-    max-width: 40vw;
+    max-width: 200px;
     height: 40px;
     transition: all 350ms ease;
     font-size: 1.125rem;
@@ -1070,16 +1070,16 @@ h4 {
         width: 30vw;
     }
 
-    /* .button4 {
-        width: 30vw;
-    } */
-}
-
-@media only screen and (min-width: 576px) {
     .button4 {
         width: 30vw;
     }
 }
+
+/* @media only screen and (min-width: 576px) {
+    .button4 {
+        width: 30vw;
+    }
+} */
 
 @media only screen and (max-width: 670px) {
     .how-img {
