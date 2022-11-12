@@ -920,8 +920,7 @@ h4 {
     }
 
     .how-img2 {
-        width: 80px;
-        height: 100px;
+        height: 30vh;
         display: flex;
     }
 
@@ -1074,8 +1073,7 @@ h4 {
     }
 
     .how-img2 {
-        width: 30vw;
-        height: 20vh;
+        height: 30vh;
         display: flex;
         margin: 0 auto;
     }
