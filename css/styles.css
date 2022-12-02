@@ -178,7 +178,7 @@
     transform: translate(-50%, -50%);
 }
 
-.button1 {
+/* .button1 {
     color:#ffffff;
     background-color: #00559F;
     border-color: #000000;
@@ -188,10 +188,10 @@
     transition: all 350ms ease;
     font-size: 1.125rem;
     box-shadow: 0px 1px #000000;
-}
+} */
 
 .button2 {
-    width: 140px;
+    width: 160px;
     height: 40px;
     margin-left: 5vw;
     transition: all 350ms ease;
@@ -511,9 +511,17 @@ h3 {
 
 .bottom-image {
     background-image: url("../img/priscilla-du-preez-XkKCui44iM0-unsplash.jpg");
+    background-position: 50% 55%;
     width: 100vw;
     height: 25vh;
-    background-position: center;
+    /* background-position: center; */
+}
+
+.bottom-image2 {
+    background-image: url("../img/mimi-thian-vdXMSiX-n6M-unsplash.jpg");
+    background-position: 50% 45%;
+    width: 100vw;
+    height: 25vh;
 }
 
 .bottom-box {
@@ -576,6 +584,44 @@ h3 {
 }
 
 /* home page content ends */
+
+/* about page begins here */
+.abt-section {
+    display: flex;
+    background-color: #929982;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 30px;
+}
+
+.abt-section1 {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.abt-subtitle {
+    /* color: #2E2F33; */
+    font-size: 1.4rem;
+    font-style: italic;
+}
+
+.abt-button2 {
+    margin-left: 0px;
+}
+
+.abt-button {
+    margin: 0 auto;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.abt-bold {
+    font-weight: bold;
+}
+/* about page ends here */
 
 /* footer content begins here */
 .footer-container {
@@ -728,6 +774,10 @@ h4 {
         display: none;
     }
 
+    .abt-section {
+        text-align: center;
+    }
+
     .lead-container {
         flex-direction: column;
         align-items: center;
@@ -817,6 +867,10 @@ h4 {
     .social-icon {
         max-width: 38px;
         max-height: 34px;
+    }
+
+    .abt-subtitle {
+        font-size: 1.3rem;
     }
 
 }
@@ -961,6 +1015,12 @@ h4 {
         justify-content: center;
     }
 
+    .abt-section {
+        max-width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
 }
 
 @media only screen and (max-height: 668px) {
@@ -1043,8 +1103,15 @@ h4 {
         width: 100vw;
     }
 
-    h3 {
+    /* h3 {
         font-size: 1.2rem!important;
+    } */
+
+    .abt-text {
+        font-size: .9rem;
+    }
+    .abt-subtitle {
+        font-size: 1.1rem;
     }
 }
 
@@ -1126,7 +1193,14 @@ h4 {
         margin-left: 0px;
     }
 
+    .abt-section1 {
+        max-width: 70%;
+        padding: 0px;
+    }
 
+    .abt-heading {
+        padding-top: 40px;
+    }
 }
 
 @media only screen and (min-width: 600px) {
