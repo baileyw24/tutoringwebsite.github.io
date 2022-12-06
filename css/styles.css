@@ -524,6 +524,13 @@ h3 {
     height: 25vh;
 }
 
+.bottom-image3 {
+    background-image: url("../img/siora-photography-hgFY1mZY-Y0-unsplash.jpg");
+    background-position: 50% 50%;
+    width: 100vw;
+    height: 25vh;
+}
+
 .bottom-box {
     color: #ffffff;
     background-color: rgba(0, 0, 0, .5);
@@ -622,6 +629,91 @@ h3 {
     font-weight: bold;
 }
 /* about page ends here */
+
+/* affordability page starts here */
+.afford-container {
+    display: flex;
+    margin-top: 50px;
+}
+
+.sidebar-container {
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    margin-left: 30px;
+    /* align-items: flex-start; */
+    margin-bottom: 20px;
+    /* margin-top: 50px; */
+}
+
+.afford-container2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.button5 {
+    height: 3em;
+    padding: 0 2.25em;
+    background-color: transparent;
+    border-radius: 4px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    transition: all 0.2s ease-in-out;
+    color: black;
+}
+
+.button5:hover, .button5:focus {
+    /* transform: scale(1.1); */
+    border-color: #47624f;
+    color: #47624f;
+    box-shadow: inset 0 0 0 1px rgba(255,255,255,0.3);
+    transform: scale(1.1)
+}
+
+.hr-size5 {
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.afford-img {
+    max-width: 65vw;
+    max-height: 60vh;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+
+.afford-text {
+    max-width: 65vw;
+}
+
+.afford-text2 {
+    max-width: 65vw;
+}
+
+.hr-size6 {
+    display: none;
+}
+
+.hr-size7 {
+    display: none;
+}
+
+.afford-note {
+    margin-bottom: 0px;
+    width: 70vw;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.table {
+    max-width: 65vw;
+}
+
+/* affordability page ends here */
 
 /* footer content begins here */
 .footer-container {
@@ -1113,11 +1205,96 @@ h4 {
     .abt-subtitle {
         font-size: 1.1rem;
     }
+
+    .afford-container {
+        flex-direction: column;
+        margin-top: 0px;
+        margin: 0 auto;
+    }
+
+    .afford-container2 {
+        margin-left: 0px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .sidebar-container {
+        margin: 0 auto;
+        width: 100vw;
+        order: 2;
+        margin-left: 0px;
+        margin-right: 0px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .afford-text {
+        width: 85vw;
+        margin-bottom: 0px;
+        font-size: .8rem!important;
+        margin: 0 auto;
+    }
+
+    .afford-text2 {
+        margin-bottom: 0px;
+        margin: 0 auto;
+        width: 100vw;
+    }
+
+    .afford-img {
+        max-width: 92vw;
+        max-height: 60vh;
+        margin: 0 auto;
+    }
+
+    .hr-size6 {
+        display: flex;
+        margin: 0 auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 50vw;
+    }
+
+    .hr-size7 {
+        display: flex;
+        margin: 0 auto;
+        margin-top: 30px;
+        width: 50vw;
+    }
+
+    .hr-size5 {
+        width: 40vw;
+        margin: 0 auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .afford-header {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .button5 {
+        height: 40px;
+        margin-top: 20px;
+    }
+
+    .afford-header2 {
+        font-size: 1.4rem;
+    }
+
+    .table {
+        max-width: 100vw;
+    }
 }
 
 @media only screen and (max-width: 1164px) {
     h3 {
         font-size: 1.1rem;
+    }
+
+    .afford-text {
+        font-size: .9rem;
     }
 }
 
@@ -1125,11 +1302,19 @@ h4 {
     h3 {
         font-size: 1rem;
     }
+
+    .afford-text {
+        font-size: .8rem;
+    }
 }
 
 @media only screen and (max-width: 831px) {
     h3 {
         font-size: .9rem;
+    }
+
+    .afford-text {
+        font-size: .7rem;
     }
 
     .how-img {
@@ -1207,5 +1392,13 @@ h4 {
     .leader-img {
         height: 100%;
         width: 100%;
+    }
+}
+
+@media only screen and (max-width: 410px) {
+    .table {
+        width: 98vw;
+        margin: 0 auto;
+        margin-bottom: 20px;
     }
 }
