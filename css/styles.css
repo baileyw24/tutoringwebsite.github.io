@@ -751,6 +751,68 @@ h3 {
 
 /* affordability page ends here */
 
+/* contact page begins here */
+.contact-header {
+    text-align: center;
+}
+
+.contact-text {
+    text-align: center;
+    max-width: 65vw;
+    margin: 0 auto;
+}
+
+.hr-size9 {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 50vw;
+}
+
+.contact-txt-container2 {
+    margin-left: 20px;
+    width: 70vw;
+}
+
+.contact-logo-margin {
+    /* display: flex; */
+    margin: 0 auto;
+}
+
+.contact-logo-spacing {
+    margin-bottom: 10px;
+}
+
+.contact-lead-container {
+    background-color: #575761 ;
+}
+
+.contact-button {
+    width: 200px;
+    height: 40px;
+    transition: all 350ms ease;
+    font-size: 1.125rem;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    background-color: transparent;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.contact-button:hover, .contact-button:focus {
+    transform: scale(1.1)
+}
+
+.contact-link-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* contact page ends here */
+
 /* footer content begins here */
 .footer-container {
     display: flex;
@@ -1013,6 +1075,22 @@ h4 {
         margin-bottom: 0px;
     }
 
+    .contact-txt-container2 {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .contact-header-spacing {
+        margin-top: 30px;
+    }
+
+    .hr-size9 {
+        margin: 0 auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 50vw;
+    }
+
 }
 
 @media only screen and (max-width: 576px) {
@@ -1045,6 +1123,11 @@ h4 {
         font-size: .8rem;
     }
 
+    .contact-button {
+        width: 30vw;
+        font-size: .8rem;
+    }
+
     .button4 {
         width: 40vw;
         font-size: .8rem;
@@ -1069,7 +1152,15 @@ h4 {
     .leader-container2 {
         margin-left: 0px;
         padding-bottom: 20px;
+        width: 80vw;
+        /* text-align: left; */
         /* max-width: 70vw; */
+    }
+
+    .contact-list {
+        text-align: left;
+        margin-bottom: 20px;
+        width: 95vw;
     }
 
     .why-container {
@@ -1385,6 +1476,10 @@ h4 {
 
     .button3 {
         width: 30vw;
+    }
+
+    .contact-button {
+        width: 25vw;
     }
 
     .button4 {

@@ -75,8 +75,83 @@
 
       <!-- website content -->
       <div class="content-container">
-        <span class="box2"></span> <!-- comment this out and see how it looks when finished w/ page-->
-        <!-- might need to add closing div to content-container class -->
+        <span class="box2"></span>
+        <div class="contact-txt-container">
+          <div class="hr-container">
+            <div class="flex-row contact-logo-margin contact-logo-spacing">
+              <div class="hr-container2">
+                <hr class="hr-size2">
+                <hr class="hr-size2">
+              </div>
+              <img class="logo2" src="img/Books.png" alt="online tutoring logo">
+              <div class="hr-container3">
+                <hr class="hr-size2">
+                <hr class="hr-size2">
+              </div>
+            </div>
+          </div>
+          <h2 class="contact-header">Contacting Us</h2>
+          <p class="contact-text">You have the option of contacting us and we'll set you up with a tutor, or you can contact a tutor directly. See each tutor's description and tutoring experience below.
+            To contact us, click the "Business Inquiries and General Questions" link at the top of this page.
+          </p>
+          <hr class="hr-size9">
+          <div class="contact-txt-container2">
+            <h2>Finding the Right Tutor</h2>
+            <p>There is no simple solution to finding the right tutor. Once you have found a tutor, we strongly encourage you to evaluate whether your tutor is the right fit. If not, we can schedule you with a different tutor or find one that works better with your needs
+              and learning style.
+            </p>
+            <h2 class="contact-header-spacing">Select a Tutor Below</h2>
+            <p>Each of our tutor's information and tutoring experience is listed below. Check out each of their profiles and see if one stands out to you!</p>
+          </div>
+          <hr class="hr-size9">
+        </div>
+        
+        <div class="lead-container contact-lead-container">
+          <img src="img/bailey.JPG" class="leader-img" alt="Bailey">
+          <div class="leader-container2">
+            <h5 class="name-title">BAILEY WATSON</h5>
+            <h5 class="name-title2">Founder/Leader</h5>
+            <p class="card-text">Psychology (B.S.)</p>
+            <ul class="contact-list">
+              <li>Collegiate Virtual Academic Tutor - 1.5 years</li>
+              <li>Independent High School Tutor - 2 years</li>
+              <li>Subjects Tutored: Pre-calculus, Calculus, Biology, Chemistry, Psychology, Writing in Research, Middle School and High School Math</li>
+              <li>Middle School Math Teaching Experience</li>
+            </ul>
+            <!-- <p class="card-text italic">"Two roads diverged in a wood, and I,
+              I took the one less traveled by, And that has made all the difference." -Robert Frost<p>
+            <p class="home-text3">My collegiate career began at a community college, which seemed atypical compared to my peers.
+              Nevertheless, I believe I learned a valuable lesson in taking the road less traveled by.
+              During my first year at my community college, I was accepted into a guaranteed admission transfer program to the University of North Carolina at Chapel Hill.
+              Having experienced both a large university and a small community college, I am accustomed to various
+              class structures and difficulties.
+              In the span of four years, I earned my Associate degree, Bachelor's degree, and graduated debt free by taking the road less traveled by.
+              I strive to apply this same mindset in how I support students in reaching their academic goals by considering all possible avenues to success.
+            </p> -->
+            <div class="contact-link-container">
+              <a href="" class="margin" target="_blank" data-part1="BaileyW2201" data-part2="gmail" data-part3="com">
+                <button class="contact-button">Contact</button>
+                <script>
+                  const linkss = document.querySelectorAll("[data-part1][data-part2][data-part3]");
+                  for (const link of linkss) {
+                    const attrs = link.dataset;
+                    link.setAttribute(
+                      "href",
+                      `mailto:${attrs.part1}@${attrs.part2}.${attrs.part3}?subject=${encodeURIComponent(link.textContent)}`
+                    );
+                  }
+                </script>
+              </a>
+              <a href="resources/Resume_website.pdf" target="_blank">
+                <button class="contact-button">Resume</button>
+              </a>
+              <a href="http://www.linkedin.com/in/bailey-watson-a967a5242" target="_blank">
+                <button class="contact-button">LinkedIn</button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <hr class="hr-size9">
 
         <span class="box2"></span>
       <!-- website content ends here -->
