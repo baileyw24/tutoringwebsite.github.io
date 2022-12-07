@@ -617,6 +617,22 @@ h3 {
 
 .abt-button2 {
     margin-left: 0px;
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    background: #252627;
+    border-radius: 4px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    transition: all 350ms ease;
+    color: white;
+    border-color: white;
+}
+
+.abt-button2:hover, .abt-button2:focus {
+    transform: scale(1.1);
+    background: #8AC4FF;
+    color: black;
+    border-color: black;
 }
 
 .abt-button {
@@ -627,6 +643,10 @@ h3 {
 
 .abt-bold {
     font-weight: bold;
+}
+
+.abt-spacing {
+    margin-bottom: 16px!important;
 }
 /* about page ends here */
 
@@ -711,6 +731,14 @@ h3 {
 
 .table {
     max-width: 65vw;
+}
+
+.afford-header2 {
+    font-size: 1.7rem;
+}
+
+.hr-size8 {
+    display: none;
 }
 
 /* affordability page ends here */
@@ -848,9 +876,9 @@ h4 {
         font-size: 1.5rem;
     }
 
-    h2 {
+    /* h2 {
         font-size: 1.5rem;
-    }
+    } */
 
     .button1 {
         height: 30px;
@@ -965,6 +993,18 @@ h4 {
         font-size: 1.3rem;
     }
 
+    .hr-size8 {
+        display: flex;
+        margin: 0 auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 50vw;
+    }
+
+    .abt-text {
+        margin-bottom: 0px;
+    }
+
 }
 
 @media only screen and (max-width: 576px) {
@@ -1049,6 +1089,10 @@ h4 {
         font-size: .9rem;
     }
 
+    .afford-text {
+        font-size: .9rem;
+    }
+
     .container3 {
         max-width: 50vw;
         flex-direction: column;
@@ -1101,6 +1145,7 @@ h4 {
         max-width: 100%;
         margin-left: 0px;
         margin-right: 0px;
+        margin-bottom: 0px;
     }
 
     .how-format {
@@ -1111,6 +1156,19 @@ h4 {
         max-width: 100%;
         margin-left: 0px;
         margin-right: 0px;
+    }
+
+    .hr-size8 {
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+
+    .hr-size88 {
+        margin-bottom: 0px;
+    }
+
+    .hr-home-spacing {
+        margin-bottom: 0px;
     }
 
 }
@@ -1131,6 +1189,10 @@ h4 {
     }
 
     h2 {
+        font-size: 1.4rem;
+    }
+
+    .afford-header2 {
         font-size: 1.4rem;
     }
 
@@ -1231,7 +1293,7 @@ h4 {
     .afford-text {
         width: 85vw;
         margin-bottom: 0px;
-        font-size: .8rem!important;
+        /* font-size: .8rem; */
         margin: 0 auto;
     }
 
@@ -1279,9 +1341,9 @@ h4 {
         margin-top: 20px;
     }
 
-    .afford-header2 {
+    /* .afford-header2 {
         font-size: 1.4rem;
-    }
+    } */
 
     .table {
         max-width: 98vw;
@@ -1292,29 +1354,17 @@ h4 {
     h3 {
         font-size: 1.1rem;
     }
-
-    .afford-text {
-        font-size: .9rem;
-    }
 }
 
 @media only screen and (max-width: 933px) {
     h3 {
         font-size: 1rem;
     }
-
-    .afford-text {
-        font-size: .8rem;
-    }
 }
 
 @media only screen and (max-width: 831px) {
     h3 {
         font-size: .9rem;
-    }
-
-    .afford-text {
-        font-size: .7rem;
     }
 
     .how-img {
