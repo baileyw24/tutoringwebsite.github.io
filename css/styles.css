@@ -973,6 +973,11 @@ h4 {
         align-items: center;
     }
 
+    .contact-list {
+        text-align: left;
+        margin-bottom: 20px;
+    }
+
     .leader-container2 {
         align-items: center;
         text-align: center;
