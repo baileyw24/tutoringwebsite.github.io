@@ -389,7 +389,7 @@ h3 {
     margin-left: 60px;
     margin-right: 60px;
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
     /* border-radius: 10px; */
 }
 
@@ -591,6 +591,14 @@ h3 {
 }
 
 /* home page content ends */
+
+.hr-size88 {
+    margin-bottom: 0px!important;
+}
+
+/* .hr-home-spacing2 {
+    margin-top: 0px;
+} */
 
 /* about page begins here */
 .abt-section {
@@ -1145,7 +1153,6 @@ h4 {
         max-width: 100%;
         margin-left: 0px;
         margin-right: 0px;
-        margin-bottom: 0px;
     }
 
     .how-format {
@@ -1167,9 +1174,9 @@ h4 {
         margin-bottom: 0px;
     }
 
-    .hr-home-spacing {
+    /* .hr-home-spacing {
         margin-bottom: 0px;
-    }
+    } */
 
 }
 
