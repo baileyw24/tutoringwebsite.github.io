@@ -538,6 +538,21 @@ h3 {
     height: 25vh;
 }
 
+.bottom-image5 {
+    background-image: url("../img/windows-VMPhyAoVqqk-unsplash.jpg");
+    background-position: 45% 80%;
+    width: 100vw;
+    height: 25vh;
+}
+
+.bottom-image6 {
+    background-image: url("../img/john-schnobrich-2FPjlAyMQTA-unsplash.jpg");
+    /* background-position: 50% 90%; */
+    background-position: 40% 25%;
+    width: 100vw;
+    height: 25vh;
+}
+
 .bottom-box {
     color: #ffffff;
     background-color: rgba(0, 0, 0, .5);
@@ -768,6 +783,11 @@ h3 {
     max-width: 65vw;
     margin: 0 auto;
 }
+/* 
+.contact-text2 {
+    max-width: 70vw;
+    margin: 0 auto;
+} */
 
 .hr-size9 {
     display: flex;
@@ -778,8 +798,8 @@ h3 {
 }
 
 .contact-txt-container2 {
-    margin-left: 20px;
-    width: 70vw;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .contact-logo-margin {
@@ -819,6 +839,156 @@ h3 {
 }
 
 /* contact page ends here */
+
+/* college page starts here */
+.college-container1 {
+    display: flex;
+}
+
+.college-img1 {
+    background-image: url("../img/jeswin-thomas-2Q3Ivd-HsaM-unsplash.jpg");
+    width: 100vw;
+    /* height: 20vh; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.college-img2 {
+    background-image: url("../img/matt-ragland-02z1I7gv4ao-unsplash.jpg");
+    width: 100vw;
+    /* height: 20vh; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.college-img3 {
+    background-image: url("../img/oli-dale-xjSkI_seiZY-unsplash.jpg");
+    width: 100vw;
+    /* height: 20vh; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.college-img4 {
+    background-image: url("../img/anoushka-p-f1YfrZ1o2r8-unsplash.jpg");
+    width: 100vw;
+    /* height: 20vh; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.college-img5 {
+    background-image: url("../img/lukas-blazek-GnvurwJsKaY-unsplash.jpg");
+    width: 100vw;
+    /* height: 20vh; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.college-img6 {
+    background-image: url("../img/debby-hudson-asviIGR3CPE-unsplash.jpg");
+    width: 100vw;
+    /* height: 20vh; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.college-box {
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, .6);
+    /* background-color: blue; */
+    position: relative;
+    /* top: 50%;
+    left: 50%; */
+    /* -ms-transform: translate(-50%, -50%); */
+    /* transform: translate(-50%, -50%); */
+    display: flex;
+    /* justify-content: center; */
+    margin-left: 60vw;
+    align-items: center;
+    width: 40vw;
+    /* flex-direction: column; */
+}
+
+.college-box3 {
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, .6);
+    position: relative;
+    display: flex;
+    /* justify-content: center; */
+    margin-right: 60vw;
+    align-items: center;
+    width: 40vw;
+    /* flex-direction: column; */
+}
+
+.college-box2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    margin: 0 auto;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.college-box4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.college-hr {
+    display: flex;
+    height: 200px!important;
+    width: 2px;
+    background-color: lightblue;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.college-affordable-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.college-txt {
+    width: 50vw;
+    text-align: center;
+}
+
+.college-afford-button {
+    width: 200px;
+    height: 40px;
+    transition: all 350ms ease;
+    font-size: 1.125rem;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    /* background-color: transparent; */
+    background-color: #4A5240;
+    color: white;
+}
+
+.college-afford-button:hover, .college-afford-button:focus {
+    transform: scale(1.1)
+}
+
+/* college page ends here */
 
 /* footer content begins here */
 .footer-container {
@@ -1140,6 +1310,10 @@ h4 {
         font-size: .8rem;
     }
 
+    .college-afford-button {
+        width: 40vw;
+    }
+
     .button4 {
         width: 40vw;
         font-size: .8rem;
@@ -1280,6 +1454,42 @@ h4 {
     /* .hr-home-spacing {
         margin-bottom: 0px;
     } */
+
+    .college-box {
+        width: 100vw!important;
+        margin-left: 0px;
+    }
+
+    .college-box2 {
+        padding: 0px;
+    }
+
+    .college-box4 {
+        padding: 0px;
+    }
+
+    .college-box3 {
+        width: 100vw!important;
+        margin-right: 0px;
+    }
+
+    .college-hr2 {
+        display: flex;
+        height: 200px!important;
+        width: 2px;
+        background-color: lightblue;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .college-hr3 {
+        display: flex;
+        height: 200px!important;
+        width: 2px;
+        background-color: lightblue;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 
 }
 
